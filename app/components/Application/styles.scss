@@ -1,0 +1,23 @@
+@import '../../css/dd.breakpoints';
+
+:local(.grid) {
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	min-height: 100vh;
+
+	@include bp(l) {
+		flex-direction: row;
+	}
+}
+
+:local(.gridItem) {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	padding: 40px 30px;
+}
+
+:local(.gridItemAltBg) {
+	background-color: #e1e4e7;
+}

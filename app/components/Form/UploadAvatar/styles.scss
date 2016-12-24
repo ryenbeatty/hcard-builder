@@ -1,0 +1,12 @@
+:local(.base) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: #627b8b;
+	box-shadow: 0 2px 0 #3f515d;
+
+	&:hover {
+		background-color: #718d9e;
+	}
+}

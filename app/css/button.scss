@@ -1,0 +1,20 @@
+:local(.base) {
+	display: block;
+	box-sizing: border-box;
+	appearance: none;
+	padding: 12px 20px;
+	width: 100%;
+	font-size: 20px;
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'MerriweatherSans', 'Open Sans', Arial, sans-serif;
+
+	&:active {
+		position: relative;
+		top: 2px;
+		box-shadow: none;
+	}
+}

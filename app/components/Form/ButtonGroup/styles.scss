@@ -1,0 +1,23 @@
+@import '../../../css/dd.breakpoints';
+
+:local(.base) {
+	display: flex;
+	flex-direction: column;
+
+	@include bp(xs) {
+		flex-direction: row;
+	}
+}
+
+:local(.item) {
+	width: 100%;
+
+	&:not(:last-child) {
+		margin-right: 20px;
+		margin-bottom: 20px;
+
+		@include bp(s) {
+			margin-bottom: 0;
+		}
+	}
+}

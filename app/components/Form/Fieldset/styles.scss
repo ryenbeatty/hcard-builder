@@ -1,0 +1,28 @@
+@import '../../../css/dd.breakpoints';
+
+:local(.base) {
+	margin: 0 0 15px;
+    padding: 0;
+    border: none;
+}
+
+:local(.title) {
+	margin: 0 10px 24px;
+	padding-bottom: 5px;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #b0b8bc;
+	border-bottom: 1px solid #b0b8bc;
+	font-family: 'MerriweatherSans', 'Open Sans', Arial, sans-serif;
+}
+
+:local(.body) {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+	@include bp(xs) {
+		flex-direction: row;
+	}
+}

@@ -1,0 +1,33 @@
+@import '../../../css/dd.breakpoints';
+
+:local(.rowItem) {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+
+	@include bp(m) {
+		flex-direction: row;
+	}
+}
+
+:local(.label) {
+	margin-bottom: 5px;
+	width: 70px;
+	font-size: 10px;
+	color: #34495e;
+	text-transform: uppercase;
+
+	@include bp(m) {
+		margin-bottom: 0;
+	}
+}
+
+:local(.value) {
+	min-width: 125px;
+}
+
+:local(.rowItem--indented) {
+	@include bp(m) {
+		margin-left: 70px;
+	}
+}

@@ -1,0 +1,15 @@
+:local(.base) {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	height: 100px;
+	overflow: hidden;
+
+	img {
+		display: block;
+		height: 100%;
+	}
+}

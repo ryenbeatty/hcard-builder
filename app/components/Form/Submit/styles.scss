@@ -1,0 +1,8 @@
+:local(.base) {
+	background-color: #3498db;
+	box-shadow: 0 2px 0 #2980b9;
+
+	&:hover {
+		background-color: #35a2eb;
+	}
+}
