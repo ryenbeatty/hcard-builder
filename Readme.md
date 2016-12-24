@@ -1,5 +1,8 @@
 # Frontend Development Test
 
+## Getting started
+It's as simple as `npm install` and `npm start` :)
+
 ## Estimated completion time
 6 hours
 
