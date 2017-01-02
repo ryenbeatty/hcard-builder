@@ -15,7 +15,7 @@ const Form = (props) => {
 				<Input id="givenName" type="text" data={props.givenName} handleChange={props.handleChange} />
 				<Input id="surname" type="text" data={props.surname} handleChange={props.handleChange} />
 				<Input id="email" type="text" data={props.email} handleChange={props.handleChange} />
-				<Input id="phone" type="number" data={props.phone} handleChange={props.handleChange} />
+				<Input id="phone" type="text" data={props.phone} handleChange={props.handleChange} />
 			</Fieldset>
 			<Fieldset title="Address">
 				<Input id="houseNo" type="number" data={props.houseNo} handleChange={props.handleChange} />
