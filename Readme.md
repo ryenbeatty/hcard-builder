@@ -3,6 +3,11 @@
 ## Getting started
 It's as simple as `npm install` and `npm start` :)
 
+To build, use `npm run build`
+
+## Live example
+http://pilot-mole-36300.netlify.com/
+
 ## Estimated completion time
 6 hours
 
