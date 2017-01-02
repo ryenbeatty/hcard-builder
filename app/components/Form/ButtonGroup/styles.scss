@@ -12,6 +12,10 @@
 :local(.item) {
 	width: 100%;
 
+	@include bp(l) {
+		width: 310px;
+	}
+
 	&:not(:last-child) {
 		margin-right: 20px;
 		margin-bottom: 20px;
