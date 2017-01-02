@@ -29,6 +29,7 @@ module.exports = function(options) {
 		entry: options.production ? './app/index.js' : [
 			'webpack-dev-server/client?http://localhost:8080',
 			'webpack/hot/only-dev-server',
+			'babel-polyfill',
 			'./app/index.js',
 		],
 		debug: !options.production,
