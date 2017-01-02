@@ -1,4 +1,6 @@
 // @flow
+require('core-js/fn/object/assign');
+
 import React, {Component} from 'react';
 import styles from './styles';
 
