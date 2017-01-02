@@ -1,3 +1,6 @@
 :local(.base) {
-	width: 100%;
+
+	@include bp(xl) {
+		max-width: 660px;
+	}
 }
