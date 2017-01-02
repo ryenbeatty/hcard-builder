@@ -12,7 +12,7 @@
 :local(.item) {
 	width: 100%;
 
-	@include bp(l) {
+	@include bp(xl) {
 		width: 310px;
 	}
 
