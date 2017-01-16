@@ -66,7 +66,7 @@ class App extends Component {
 	}
 
 	handleAvatarUpload(e) {
-		this.setState({avatar: URL.createObjectURL(e[0])});
+		this.setState({avatar: URL.createObjectURL(e.target.files[0])});
 	}
 
 	handleSubmit(e) {
